@@ -10,11 +10,16 @@ Early Blight: A common fungal disease characterized by dark, concentric lesions 
 Late Blight: A severe fungal disease that causes large, irregular lesions and can spread rapidly, affecting both leaves and tubers. Late Blight is particularly destructive and can cause extensive damage if not controlled. The model detects Late Blight by identifying the irregular, water-soaked appearance of the lesions.
 
 Healthy: This category represents leaves that are free from visible diseases. Accurate classification of healthy leaves helps in distinguishing between diseased and non-diseased states, ensuring that only affected leaves are flagged for further inspection or treatment
-## Contribution
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
 ## Tech Stack
--Python 3
+- Python 3
 - TensorFlow
 - NumPy
+## Usage
+1. **Upload an image**: Upload an image through the web interface.
+2. **Image processing and classification**: The image is processed and classified using a pre-trained TensorFlow model.
+3. The **result** will be shown.
+  ## Contribution
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
