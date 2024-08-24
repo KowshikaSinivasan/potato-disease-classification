@@ -1,0 +1,17 @@
+Model details
+Overview
+The model is saved in the form of an .h5 file, with an accuracy of 96%. The dataset was obtained from Kaggle and consists of over 2000 images. The model was trained using this dataset.
+Additionally, the model can be serialized and saved using Python's pickle module for further manipulation or storage. Here is how you can save and load the model using pickle:
+import pickle
+
+-Save the model to a file
+
+import pickle
+with open('model_saved.pkl', 'wb') as file:
+    pickle.dump(model, file)
+
+
+Load the model from the file
+import pickle
+with open('model_saved.pkl', 'rb') as file:
+    model = pickle.load(file)
